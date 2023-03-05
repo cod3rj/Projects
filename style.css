@@ -1,0 +1,40 @@
+.container {
+  margin: 0 auto;
+  width: 300px;
+}
+
+table {
+  margin-top: 20px;
+}
+
+button {
+  width: 70px;
+  height: 50px;
+  font-size: 24px;
+  margin: 5px;
+  border: none;
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.operator {
+  background-color: #f59b51;
+  color: #fff;
+}
+
+button:active {
+  background-color: #ccc;
+}
+
+#result {
+  width: 300px;
+  height: 50px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding: 5px;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
